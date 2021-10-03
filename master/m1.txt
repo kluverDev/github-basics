@@ -1,0 +1,2 @@
+git branch -a //see all the branches and remote tracking branches too
+git branch -r //see only remote tracking branches
