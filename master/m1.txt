@@ -11,4 +11,4 @@ git pull = git fetch + git merge
 remote repository => git fetch => remote tracking branch => git merge => local tracking branch{remote rep name "origin" and branchname can be ommitted}
 
 local tracking branch is a local reference to remote tracking branch and suppose to be edited.
-git branch --track branchname-local origin/branchname-remote //this command creates a local tracking branch which now connects to the remote tracking branch
+git branch --track branchname origin/branchname //this command creates a local tracking branch which now connects to the remote tracking branch
