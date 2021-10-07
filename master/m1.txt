@@ -1,2 +1,13 @@
-git branch -a //see all the branches and remote tracking branches too
+git branch -a //see all local branches and remote tracking branches too.{remote tracking branches are only available locally}
+remote tracking branches track all the branches available in your remote repository. must be updated using git fetch to get updated changes.
 git branch -r //see only remote tracking branches
+git ls-remote //shows all branches in remote repository
+git push origin branchname  //pushing changes locally to the branch in remote repository. creates the branch in remote repository if not created already.
+git fetch origin // fetches everything from remote repository and both new branches not yet available locally and add them to the remote tracking branches.
+ the remote tracking branches is updated.
+
+local tracking branch => remote tracking branch => remote repository
+git pull = git fetch + git merge
+remote repository => git fetch => remote tracking branch => git merge => local tracking branch{remote rep name "origin" and branchname can be ommitted}
+
+local tracking branch is a local reference to remote tracking branch and suppose to be edited.
