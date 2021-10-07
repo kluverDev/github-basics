@@ -13,4 +13,4 @@ remote repository => git fetch => remote tracking branch => git merge => local t
 local tracking branch is a local reference to remote tracking branch and suppose to be edited.
 git branch --track branchname origin/branchname //this command creates a local tracking branch which now connects to the remote tracking branch
 git remote show orign //info about alot 
-git branch -vv list local tracking branches and their remotes
+git branch -vv list local tracking branches and their remotes kk
