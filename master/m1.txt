@@ -14,3 +14,7 @@ local tracking branch is a local reference to remote tracking branch and suppose
 git branch --track branchname origin/branchname //this command creates a local tracking branch which now connects to the remote tracking branch
 git remote show orign //info about alot 
 git branch -vv list local tracking branches and their remotes kk
+
+delete a local branch, remote tracking branch, and branch in remote repository
+git branch --delete --remotes origin/branchname  // to delete a remote tracking branch
+git origin --delete branchname  //to delete a branch in remote repository
